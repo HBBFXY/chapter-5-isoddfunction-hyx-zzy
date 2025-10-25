@@ -16,3 +16,9 @@ def isOdd(value):
             return False
     else:
         return False
+
+# 主程序部分，用于测试isOdd函数
+if __name__ == "__main__":
+    N = input()
+    num = isOdd(N)
+    print(num)
